@@ -9,8 +9,10 @@ import javax.persistence.*;
 public class Workouts {
 	@Id
 	private int workoutId;
+	@Column (length = 50)
 	private String workoutName;
 	private String workoutType;
+	@Column (length = 1500)
 	private String workoutDetails;
 	private String workoutDuration;
 	private String workoutLink;
