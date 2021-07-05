@@ -13,7 +13,7 @@
 	<servlet>
 		<servlet-name>DeleteServlet</servlet-name>
 		<display-name>DeleteServlet</display-name>
-		<description></description>
+		<description>To Delete a workout</description>
 		<servlet-class>com.servlets.DeleteServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
