@@ -38,7 +38,7 @@
 						<p class="card-text"><%=workout.getWorkoutDetails()%></p>
 						<div class="container text-center mt-2">
 							<a href="DeleteServlet?workout_id= <%=workout.getWorkoutId()%>" class="btn btn-danger">Delete</a> 
-							<a href="UpdateServlet" class="btn btn-outline-primary">Update</a>
+							<a href="edit_workout.jsp?workout_id= <%=workout.getWorkoutId()%>" class="btn btn-outline-primary">Update</a>
 						</div>
 					</div>
 				</div>
