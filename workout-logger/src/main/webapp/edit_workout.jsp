@@ -20,6 +20,7 @@
 		Workouts workout = (Workouts) s.get(Workouts.class, workoutId);
 		%>
 		<form action="UpdateServlet" method="post">
+		<input value = "<%= workout.getWorkoutId()%>" name = "workoutId" type="hidden"/>
 			<div class="mb-3">
 				<label for="nameWorkout" class="form-label">Workout Name </label> <input
 					name="workoutName" type="Text" class="form-control"

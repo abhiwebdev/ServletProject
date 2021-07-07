@@ -17,6 +17,13 @@ public class Workouts {
 	private String workoutDuration;
 	private String workoutLink;
 	private String workoutDate;
+	private String addedDate;
+	public String getAddedDate() {
+		return addedDate;
+	}
+	public void setAddedDate(String addedDate) {
+		this.addedDate = addedDate;
+	}
 	public String getWorkoutDate() {
 		return workoutDate;
 	}

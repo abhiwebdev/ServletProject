@@ -7,7 +7,7 @@
 	<servlet>
 		<servlet-name>SaveWorkoutServlet</servlet-name>
 		<display-name>SaveWorkoutServlet</display-name>
-		<description></description>
+		<description>To Save a workout</description>
 		<servlet-class>com.servlets.SaveWorkoutServlet</servlet-class>
 	</servlet>
 	<servlet>
@@ -16,6 +16,12 @@
 		<description>To Delete a workout</description>
 		<servlet-class>com.servlets.DeleteServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>UpdateServlet</servlet-name>
+		<display-name>UpdateServlet</display-name>
+		<description>To update existing workout based on its unique workout ID</description>
+		<servlet-class>com.servlets.UpdateServlet</servlet-class>
+	</servlet>
 	<servlet-mapping>
 		<servlet-name>SaveWorkoutServlet</servlet-name>
 		<url-pattern>/SaveWorkoutServlet</url-pattern>
@@ -23,5 +29,9 @@
 	<servlet-mapping>
 		<servlet-name>DeleteServlet</servlet-name>
 		<url-pattern>/DeleteServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateServlet</servlet-name>
+		<url-pattern>/UpdateServlet</url-pattern>
 	</servlet-mapping>
 </web-app>
